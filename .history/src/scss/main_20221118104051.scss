@@ -1,0 +1,39 @@
+@import "~normalize.css";
+
+@import "_variables";
+@import "modules/hello.scss";
+
+body {}
+
+
+
+.col-5 {
+  padding-left: 0;
+  padding-right: 10rem;
+  padding-top: 0;
+}
+
+.col2 {
+  padding-top: 0 rem;
+}
+
+.col {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+
+.col2 {
+  padding-top: 1.5rem;
+}
+
+.img-fluid {
+  max-width: 24rem;
+}
+
+.navbar {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #fff;
+}

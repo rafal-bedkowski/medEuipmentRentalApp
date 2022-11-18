@@ -1,0 +1,33 @@
+@import "~normalize.css";
+
+@import "_variables";
+@import "modules/hello.scss";
+
+body {}
+
+
+
+
+
+.col2 {
+  padding-top: 0 rem;
+}
+
+.col {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+
+.col2 {
+  padding-top: 1.5rem;
+}
+
+
+
+.navbar {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #fff;
+}

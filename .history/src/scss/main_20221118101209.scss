@@ -1,0 +1,25 @@
+@import "~normalize.css";
+
+@import "_variables";
+@import "modules/hello.scss";
+
+body {}
+
+
+
+.col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.col2 {
+  padding-top: 2rem;
+}
+
+.img-fluid {
+  max-width: 50rem;
+}

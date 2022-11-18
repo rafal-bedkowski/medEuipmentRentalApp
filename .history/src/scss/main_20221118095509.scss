@@ -1,0 +1,14 @@
+@import "~normalize.css";
+
+@import "_variables";
+@import "modules/hello.scss";
+
+body {}
+
+.container-fluid {
+  border-style: none;
+}
+
+.col {
+  padding-left: 0;
+}

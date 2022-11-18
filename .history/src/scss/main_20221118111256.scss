@@ -9,26 +9,11 @@ body {}
   padding-top: 0;
   padding-left: 0;
 
-  &-brand {
-    padding-top: 0;
-  }
+  &-brand {}
 }
 
 
 .container-fluid {
   padding-top: 0;
   padding-left: 0;
-}
-
-.nav-link {
-  font-weight: bold;
-}
-
-.nav-link:hover {
-  color: #236CFF;
-}
-
-.navbar-nav>li {
-  padding-left: 30px;
-  padding-right: 30px;
 }
