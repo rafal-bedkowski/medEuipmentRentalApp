@@ -1,0 +1,52 @@
+@import "~normalize.css";
+
+@import "_variables";
+@import "modules/hello.scss";
+
+body {}
+
+.navbar {
+  padding-top: 0;
+  padding-left: 0;
+
+  &-brand {
+    padding-top: 0;
+  }
+}
+
+
+.container-fluid {
+  padding-top: 0;
+  padding-left: 0;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #236CFF;
+}
+
+.navbar-nav>li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.article {
+  margin-top: 20px;
+
+  &__header {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 84.72px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+
+    &--color {
+      color: #236CFF;
+    }
+  }
+
+  &__paragraph {}
+}

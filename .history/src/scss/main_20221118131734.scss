@@ -8,8 +8,6 @@
   display: flexbox;
   padding-top: 3rem;
   padding-left: 3.5rem;
-  margin-right: 5rem;
-
 
   &__txt {
     &--header {
@@ -27,7 +25,9 @@
     }
   }
 
-  img {}
+  img {
+    padding-left: -600px;
+  }
 }
 
 

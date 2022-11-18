@@ -5,32 +5,17 @@
 
 
 .article {
-  display: flexbox;
-  padding-top: 3rem;
-  padding-left: 3.5rem;
-  margin-right: 5rem;
-
-
   &__txt {
     &--header {
       font-size: 70px;
-      font-weight: bold;
-      line-height: 85px;
+      font-weight: bold
     }
 
-    &--color {
-      color: #236CFF;
-    }
+    &--color {}
 
-    &--paragraph {
-      font-size: 12;
-    }
+    &--paragraph {}
   }
-
-  img {}
 }
-
-
 
 
 
@@ -54,8 +39,6 @@ body {
   padding-top: 0;
   padding-left: 0;
 }
-
-
 
 .nav-link {
   font-weight: bold;

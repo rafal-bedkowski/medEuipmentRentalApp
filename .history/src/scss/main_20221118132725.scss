@@ -10,7 +10,6 @@
   padding-left: 3.5rem;
   margin-right: 5rem;
 
-
   &__txt {
     &--header {
       font-size: 70px;
@@ -27,7 +26,9 @@
     }
   }
 
-  img {}
+  img {
+    float: right;
+  }
 }
 
 
