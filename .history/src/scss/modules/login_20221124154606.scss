@@ -1,0 +1,24 @@
+.loginBody {
+    background: white;
+}
+
+
+.img__container {
+    max-width: fit-content;
+    margin-left: 9rem;
+    margin-right: 10rem;
+
+
+
+    @media (min-width: $desktop) {
+        margin-left: 14rem;
+    }
+
+
+    &--image {}
+}
+
+.form__container {
+    background-color: #D9D9D9;
+
+}

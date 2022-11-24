@@ -10,7 +10,7 @@
 
 
 
-    @media (min-width: 960px) {
+    @media (min-width: $desktop) {
         margin-left: 11rem;
         margin-right: 14rem;
     }
@@ -33,16 +33,10 @@
 .form {
     &__loginTxt {
         padding-bottom: 2rem;
-        text-align: center;
     }
 
-    &__emailInput {
-        margin-bottom: 2rem;
-        text-align: center;
-    }
-
-    &__passwordInput {
-        text-align: center;
+    &__emailLabel {
+        padding-bottom: 2rem;
     }
 
 }

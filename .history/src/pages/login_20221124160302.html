@@ -15,25 +15,16 @@
     </div>
     <div class="form__container">
       <form class="form">
-        <p class="form form__loginTxt">log in to <span>your</span> account</p>
-
-        <input
-          class="form form__emailInput input--js"
-          type="text"
-          id="email"
-          name="inputBox"
-          placeholder="enter your email"
-        />
-        <input
-          class="form form__passwordInput input--js"
-          type="txt"
-          id="password"
-          name="inputBox"
-          placeholder="enter your password"
-        /><br /><br />
+        <p>
+            <p>log in to <span>your</span> account</p>
+        <label class="form form__emailLabel" for="email">your email:</label><br />
+        <input class="form form__emailInput" type="text" id="email" name="email" /><br />
+        <label class="form form__passwordLabel" for="password">password:</label><br />
+        <input class="form form__passwordLabel" type="password" id="password" name="password" /><br /><br />
         <input class="form form__loginBtn" type="submit" value="log in" />
         <p class="form__reminder">forgot password?</p>
       </form>
-    </div>
+    </p>
+</div>
   </body>
 </html>

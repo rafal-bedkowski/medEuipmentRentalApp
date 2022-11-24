@@ -1,0 +1,19 @@
+.loginBody {
+    background: white;
+}
+
+
+.img__container {
+    max-width: fit-content;
+    padding-left: 0;
+    padding-right: 0;
+
+
+    &--image {
+        padding-left: 18rem;
+    }
+}
+
+.form__container {
+    background-color: #D9D9D9;
+}

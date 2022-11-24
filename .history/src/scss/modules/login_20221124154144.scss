@@ -1,0 +1,21 @@
+.loginBody {
+    background: white;
+}
+
+
+.img__container {
+    max-width: fit-content;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+
+
+    &--image {}
+}
+
+.form__container {
+    background-color: #D9D9D9;
+    display: flexbox;
+    flex-direction: column;
+}
