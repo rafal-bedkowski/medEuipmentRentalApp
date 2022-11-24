@@ -38,4 +38,4 @@ Scripts you can use:
 
 
 ## Project Status
-Project is: _on going_ 
+Project is: _ongoing_ 
