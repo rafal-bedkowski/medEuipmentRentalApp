@@ -15,7 +15,8 @@
 
 ## Technologies Used
 - HTML 5 (with semantic tags)
-- 
+- SCSS/CSS
+- Vanila JS
 - NPM Webpack starter kit from Frontend Training course - providing couple of packages like webpack dev-server, babel etc.  
 
 
