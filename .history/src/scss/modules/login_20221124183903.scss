@@ -20,7 +20,7 @@
 }
 
 .form__container {
-    background-color: #d9d9d979;
+    background-color: #D9D9D9;
     margin-left: 26rem;
     margin-right: 26rem;
     padding-top: 1rem;
@@ -58,25 +58,7 @@
     }
 
     &__reminder {
-        font-size: 12px;
+        font-size: 20px;
     }
 
-    &__loginTxt {
-        font-weight: bold;
-
-        &--span {
-            color: #236CFF;
-        }
-    }
-
-}
-
-.newAccount__container {
-    margin-left: 3.5rem;
-
-    &--paragraph {
-        color: #236CFF;
-        font-weight: bold;
-        text-decoration: none;
-    }
 }

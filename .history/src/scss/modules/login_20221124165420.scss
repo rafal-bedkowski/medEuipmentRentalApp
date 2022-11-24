@@ -20,7 +20,7 @@
 }
 
 .form__container {
-    background-color: #d9d9d979;
+    background-color: #D9D9D9;
     margin-left: 26rem;
     margin-right: 26rem;
     padding-top: 1rem;
@@ -39,44 +39,14 @@
     &__emailInput {
         margin-bottom: 2rem;
         text-align: center;
-        border-style: none;
     }
 
     &__passwordInput {
         text-align: center;
-        border-style: none;
     }
 
     &__loginBtn {
         background-color: #236CFF;
-        border-style: none;
-        color: #ffff;
-        width: 10rem;
-        height: 1.5rem;
-        margin-top: 2rem;
-        border-radius: 1rem;
     }
 
-    &__reminder {
-        font-size: 12px;
-    }
-
-    &__loginTxt {
-        font-weight: bold;
-
-        &--span {
-            color: #236CFF;
-        }
-    }
-
-}
-
-.newAccount__container {
-    margin-left: 3.5rem;
-
-    &--paragraph {
-        color: #236CFF;
-        font-weight: bold;
-        text-decoration: none;
-    }
 }
