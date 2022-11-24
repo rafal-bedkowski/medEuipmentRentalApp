@@ -1,18 +1,42 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover]()
 
-# WTF Webpack Starter Kit 
+# Tailwind Landing page
+> Live demo [_here_]().
 
-Simple toolkit for your static websites development.
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Project Status](#project-status)
 
-## How to use it?
+## General Information
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
 
-## Available scripts
+## Technologies Used
+- HTML 5 (with semantic tags)
+- SCSS/CSS
+- Vanila JS
+- NPM Webpack starter kit from Frontend Training course - providing couple of packages like webpack dev-server, babel etc.  
 
-`npm run start` - runs development mode
 
-`npm run build` - runs build process for production
+## Screenshots
+![Example screenshot]()
+![Example screenshot]()
+![Example screenshot]()
+![Example screenshot]()
 
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
+## Setup
 
+git clone the project on your machine  
+locally install the npm webpack `npm install --save-dev webpack`  
+
+Scripts you can use:
+
+`npm run start` - to run webpack dev-server development mode  
+`npm run build` - to run production mode  
+`npm run publish` - to publish project on githubpages  
+
+
+## Project Status
+Project is: _ongoing_ 
