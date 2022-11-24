@@ -1,0 +1,14 @@
+.accountBody {
+    background-color: white;
+}
+
+
+.ACCwelcome__container {
+    &--paragraph {
+        font-weight: bolds;
+    }
+
+    &--span {
+        color: #236CFF;
+    }
+}

@@ -4,17 +4,12 @@
 
 
 .ACCwelcome__container {
-    margin-left: 31.5rem;
-    padding-top: 1rem;
-}
-
-.ACCwelcome {
-    &__paragraph {
+    &--paragraph {
         font-weight: bold;
-        font-size: 15px;
+        font-size: 18px;
     }
 
-    &__span {
+    &--span {
         color: #236CFF;
     }
 }
