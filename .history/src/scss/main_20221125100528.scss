@@ -25,45 +25,22 @@ html {
   display: flex;
   gap: 2rem;
   text-decoration: none;
-  font-weight: 500;
 
   &__account {
     background-color: #236CFF;
-    border-style: none;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
-
-    :hover {
-      color: black;
-    }
 
     &--btn {
       color: #fff;
     }
   }
 
-  &__home {
-    font-weight: bold;
-    color: black;
-  }
+  &__home {}
 
-  &__contact {
-    color: rgba(0, 0, 0, 0.6);
-  }
+  &__about {}
 
-  &__about {
-    color: rgba(0, 0, 0, 0.6);
-  }
+  &__offer {}
 
-  &__offer {
-    color: rgba(0, 0, 0, 0.6);
-  }
-
-  &__opinion {
-    color: rgba(0, 0, 0, 0.6);
-  }
+  &__opinion {}
 }
 
 .navbar {

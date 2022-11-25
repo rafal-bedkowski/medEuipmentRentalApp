@@ -1,0 +1,30 @@
+@import "~normalize.css";
+
+@import "_variables";
+@import "modules/hello.scss";
+@import "modules/login.scss";
+@import "modules/account.scss";
+
+
+.indexBody {
+  background-color: white;
+  margin: 0;
+}
+
+.navigation__container {}
+
+.navigation {
+  &__home {}
+
+  &__about {}
+
+  &__offer {}
+
+  &__opinion {}
+}
+
+.navbar {
+  margin-top: 0;
+
+  &_logo {}
+}

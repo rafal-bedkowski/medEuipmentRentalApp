@@ -1,0 +1,38 @@
+@import "~normalize.css";
+
+@import "_variables";
+@import "modules/hello.scss";
+@import "modules/login.scss";
+@import "modules/account.scss";
+
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.navigation__container {}
+
+.navigation {
+  &__home {}
+
+  &__about {}
+
+  &__offer {}
+
+  &__opinion {}
+}
+
+.navbar {
+
+
+  &_logo {
+    margin-top: 2rem;
+  }
+}

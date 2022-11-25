@@ -1,0 +1,41 @@
+@import "~normalize.css";
+
+@import "_variables";
+@import "modules/hello.scss";
+@import "modules/login.scss";
+@import "modules/account.scss";
+
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.navigation__container {
+  padding-right: 1rem;
+}
+
+.navigation {
+  display: flex;
+  row-gap: 4px;
+
+  &__home {}
+
+  &__about {}
+
+  &__offer {}
+
+  &__opinion {}
+}
+
+.navbar {
+  padding-top: 0;
+
+  &__logo {}
+}
