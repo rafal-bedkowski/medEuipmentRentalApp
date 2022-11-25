@@ -16,19 +16,16 @@
         width: 8rem;
         margin-right: 2rem;
         margin-bottom: 2rem;
-        padding-left: 0.5rem;
     }
 
     &__lastName {
         background-color: #d9d9d979;
-        padding-left: 0.5rem;
     }
 
     &__userName {
         background-color: #d9d9d979;
         margin-bottom: 2rem;
         width: 20rem;
-        padding-left: 0.5rem;
 
     }
 
@@ -36,8 +33,6 @@
         background-color: #d9d9d979;
         margin-bottom: 0.5rem;
         width: 20rem;
-        padding-left: 0.5rem;
-
     }
 
     &__paragraph {
@@ -47,19 +42,12 @@
 
     &__password {
         background-color: #d9d9d979;
-        margin-left: 2rem;
-        width: 17rem;
-        margin-bottom: 1rem;
-        padding-left: 0.5rem;
-
+        margin-left: 4rem;
+        width: 6rem;
     }
 
     &__repeatPassword {
         background-color: #d9d9d979;
-        margin-left: 2rem;
-        width: 17rem;
-        padding-left: 0.5rem;
-
     }
 }
 
@@ -69,27 +57,12 @@
     margin-right: 23rem;
 }
 
-.ACCStatus__container {
-    margin-top: 2rem;
-    margin-left: 29.5rem;
-}
+.ACCStatus_container {
+    &--firstParagraph {}
 
-.ACCStatus {
-    &__firstParagraph {
-        margin-left: 5rem;
-        font-size: 22px;
-        font-weight: bold;
-        color: #236CFF;
-    }
+    &--secondParagraph {}
 
-    &__secondParagraph {
-        color: rgba(0, 0, 0, 0.5);
-    }
-
-    &__link {
-        text-decoration: none;
-        color: #236CFF;
-    }
+    &--link {}
 }
 
 .ACCwelcome {

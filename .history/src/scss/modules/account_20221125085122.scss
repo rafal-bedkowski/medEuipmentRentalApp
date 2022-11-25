@@ -76,20 +76,12 @@
 
 .ACCStatus {
     &__firstParagraph {
-        margin-left: 5rem;
-        font-size: 22px;
-        font-weight: bold;
-        color: #236CFF;
+        margin-left: 2rem;
     }
 
-    &__secondParagraph {
-        color: rgba(0, 0, 0, 0.5);
-    }
+    &__secondParagraph {}
 
-    &__link {
-        text-decoration: none;
-        color: #236CFF;
-    }
+    &__link {}
 }
 
 .ACCwelcome {

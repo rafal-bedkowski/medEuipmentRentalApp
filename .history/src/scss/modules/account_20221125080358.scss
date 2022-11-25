@@ -1,0 +1,68 @@
+.accountBody {
+    background-color: white;
+}
+
+
+.ACCwelcome__container {
+    margin-left: 31.5rem;
+    padding-top: 1rem;
+}
+
+.ACCForm {
+    border-style: none;
+
+    &__name {
+        background-color: #d9d9d979;
+        width: 8rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    &__lastName {
+        background-color: #d9d9d979;
+    }
+
+    &__userName {
+        background-color: #d9d9d979;
+
+    }
+
+    &__email {
+        background-color: #d9d9d979;
+    }
+
+    &__paragraph {}
+
+    &__password {
+        background-color: #d9d9d979;
+    }
+
+    &__repeatPassword {
+        background-color: #d9d9d979;
+    }
+}
+
+.ACCForm__container {
+    padding-top: 2.5rem;
+    margin-left: 26rem;
+    margin-right: 23rem;
+}
+
+.ACCStatus_container {
+    &--firstParagraph {}
+
+    &--secondParagraph {}
+
+    &--link {}
+}
+
+.ACCwelcome {
+    &__paragraph {
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    &__span {
+        color: #236CFF;
+    }
+}

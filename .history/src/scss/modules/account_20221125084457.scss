@@ -69,27 +69,12 @@
     margin-right: 23rem;
 }
 
-.ACCStatus__container {
-    margin-top: 2rem;
-    margin-left: 29.5rem;
-}
+.ACCStatus_container {
+    &--firstParagraph {}
 
-.ACCStatus {
-    &__firstParagraph {
-        margin-left: 5rem;
-        font-size: 22px;
-        font-weight: bold;
-        color: #236CFF;
-    }
+    &--secondParagraph {}
 
-    &__secondParagraph {
-        color: rgba(0, 0, 0, 0.5);
-    }
-
-    &__link {
-        text-decoration: none;
-        color: #236CFF;
-    }
+    &--link {}
 }
 
 .ACCwelcome {
