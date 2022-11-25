@@ -1,0 +1,49 @@
+.accountBody {
+    background-color: white;
+}
+
+
+.ACCwelcome__container {
+    margin-left: 31.5rem;
+    padding-top: 1rem;
+}
+
+.ACCForm {
+    &__name {}
+
+    &__lastName {}
+
+    &__userName {}
+
+    &__email {}
+
+    &__paragraph {}
+
+    &__password {}
+
+    &__repeatPassword {}
+}
+
+.ACCForm__container {
+    margin-left: 31rem;
+
+}
+
+.ACCStatus_container {
+    &--firstParagraph {}
+
+    &--secondParagraph {}
+
+    &--link {}
+}
+
+.ACCwelcome {
+    &__paragraph {
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    &__span {
+        color: #236CFF;
+    }
+}

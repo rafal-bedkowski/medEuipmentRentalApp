@@ -9,38 +9,24 @@
 }
 
 .ACCForm {
-    border-style: none;
+    &__name {}
 
-    &__name {
-        background-color: #d9d9d979;
-    }
+    &__lastName {}
 
-    &__lastName {
-        background-color: #d9d9d979;
-    }
+    &__userName {}
 
-    &__userName {
-        background-color: #d9d9d979;
-    }
-
-    &__email {
-        background-color: #d9d9d979;
-    }
+    &__email {}
 
     &__paragraph {}
 
-    &__password {
-        background-color: #d9d9d979;
-    }
+    &__password {}
 
-    &__repeatPassword {
-        background-color: #d9d9d979;
-    }
+    &__repeatPassword {}
 }
 
 .ACCForm__container {
-    padding-top: 2.5rem;
-    margin-left: 24rem;
+    padding-top: 4rem;
+    margin-left: 23rem;
     margin-right: 23rem;
 }
 
