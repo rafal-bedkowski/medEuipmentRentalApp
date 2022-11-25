@@ -1,6 +1,6 @@
 ![cover]()
 
-# Tailwind Landing page
+# Medical Equipment Rental webpage
 > Live demo [_here_]().
 
 ## Table of Contents
@@ -11,9 +11,9 @@
 * [Project Status](#project-status)
 
 ## General Information
+Frontend part of the University course project, to create fully working rental medical equipment app
 
-
-## Technologies Used
+## Technologies Used on the Frontend Side
 - HTML 5 (with semantic tags)
 - SCSS/CSS
 - Vanila JS
