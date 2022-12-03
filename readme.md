@@ -11,7 +11,7 @@
 * [Project Status](#project-status)
 
 ## General Information
-Frontend part of the University course project, to create fully working rental medical equipment app
+Frontend part of the University course project, task is to create fully working medical equipment rental web app, with the native version as well. 
 
 ## Technologies Used on the Frontend Side
 - HTML 5 (with semantic tags)
